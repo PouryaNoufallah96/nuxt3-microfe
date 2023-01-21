@@ -1,0 +1,17 @@
+{
+  "name": "host",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs"
+  },
+
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.1.13",
+    "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@nuxt/vite-builder": "^3.0.0"
+  }
+}
